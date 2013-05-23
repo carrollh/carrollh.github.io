@@ -6,6 +6,10 @@ body {
 	margin: 0px;
 	padding: 0px;
   }
+  header {
+	  width:270px;
+	  margin: auto;
+	}
   #game {
 	border: 1px solid black;
 	border-radius: 25px;
@@ -67,3 +71,7 @@ body {
 	/*-webkit-transform: rotateY(10deg);*/
 	background-color: red;
   }
+  footer {
+	width: 270px;
+	margin: auto;
+}

@@ -22,13 +22,14 @@ function init() {
 	}
 }
 function reset() {
-	for(var i = 1; i <= 16; i++) {
+	/*for(var i = 1; i <= 16; i++) {
 		flipCard(document.getElementById("c"+i).parentNode.parentNode, "false");
 	}
 	startArray = [1,2,3,4,5,6,7,8,1,2,3,4,5,6,7,8];
 	numArray = new Array();
 	matchCount = 0;
-	init();
+	init();*/
+	history.go(0);
 }
 function flipCard(cell, isFlipped) {
 	var yAngle = parseInt(cell.getAttribute("data-yAngle"));
