@@ -1,0 +1,69 @@
+body {
+	margin: 0px;
+	padding: 0px;
+  }
+  body *{
+	margin: 0px;
+	padding: 0px;
+  }
+  #game {
+	border: 1px solid black;
+	border-radius: 25px;
+	
+	-webkit-perspective: 1000;
+	-webkit-perspective-origin: 50% 250px;
+
+	margin: auto;
+	padding: 10px;
+	width: 480px;
+	height: 480px;
+	background-color: black;
+  }
+  .cell {
+	-webkit-perspective: 1000;
+	-webkit-perspective-origin: 50% 250px;
+  }
+  .cell .front {
+	-webkit-transform: rotateY(180deg) translateY(-60px) translateZ(1px);
+  }
+  .cell .back {
+	-webkit-transform: translateY(-60px) translateZ(1px);
+  }
+  
+  table
+  {
+	padding: 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+  }
+
+  td
+  {
+	-webkit-transition: -webkit-transform .3s linear;
+	-webkit-transform-style: preserve-3d;
+	
+	
+	height: 120px;
+	width: 120px;
+
+	border: 0px;
+	padding: 0px;
+
+	empty-cells: show;
+	
+  }
+
+  td div
+  {
+	display: table-cell;
+	border: 1px solid black;
+	border-radius: 25px;
+	position: absolute;
+	margin: 5px;
+	height: 110px;
+	width: 110px;
+	overflow: hidden;
+	
+	/*-webkit-transform: rotateY(10deg);*/
+	background-color: red;
+  }
