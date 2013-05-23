@@ -6,11 +6,11 @@
 	<link rel="stylesheet" type="text/css" href="./css/memory.css">
 </head>
 <body onload="init()">
-<header>
-        <h1>Carrollh.github.io</h1>
-        <p class="view"><a href="https://github.com/carrollh"> View My GitHub Profile</a></p>
-      </header>
 	<div id="game">
+		<header>
+			<h1>Carrollh.github.io</h1>
+			<p class="view"><a href="https://github.com/carrollh"> View My GitHub Profile</a></p>
+		</header>
 		<table id="board">
 			<tr>
 				<td class="cell" data-yAngle="0" data-isFlipped="false" onclick="flip(this)"><div class="front"><canvas id="c1" data-index="0"></div><div class="back"></div></td>
@@ -37,10 +37,10 @@
 				<td class="cell" data-yAngle="0" data-isFlipped="false" onclick="flip(this)"><div class="front"><canvas id="c16" data-index="0"></div><div class="back"></div></td>
 			</tr>
 		</table>
+		<footer>
+			<p> You may need to refresh the window to get the images to load correctly... </p>
+		</footer>		
 	</div>
-	<footer>
-		<p> You may need to refresh the window to get the images to load correctly... </p>
-	</footer>
 	<script type="text/javascript" src="./js/memory.js"></script>
 </body>
 </html>
