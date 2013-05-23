@@ -6,6 +6,12 @@ body {
 	margin: 0px;
 	padding: 0px;
   }
+  header {
+	  width:270px;
+	  float:left;
+	  position:fixed;
+	  top: 25px;
+	}
   #game {
 	border: 1px solid black;
 	border-radius: 25px;
@@ -67,3 +73,9 @@ body {
 	/*-webkit-transform: rotateY(10deg);*/
 	background-color: red;
   }
+  footer {
+  width:270px;
+  float:left;
+  position:fixed;
+  bottom:50px;
+}
