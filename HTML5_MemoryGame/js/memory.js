@@ -67,7 +67,12 @@ function flipCard(cell, isFlipped) {
 	yAngle += 180;
 	cell.setAttribute("data-yAngle", yAngle);
 	cell.setAttribute("data-isFlipped", isFlipped);
+	
+	cell.style.MozTransform = "rotateY("+yAngle+"deg)";
+	cell.style.msTransform = "rotateY("+yAngle+"deg)";
 	cell.style.webkitTransform = "rotateY("+yAngle+"deg)";
+	cell.style.OTransform = "rotateY("+yAngle+"deg)";
+	//cell.style.transform = "rotateY("+yAngle+"deg)";
 }
 
 // some persistant globals specifically used in the flip(<td>) function
