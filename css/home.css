@@ -1,0 +1,27 @@
+body * { 
+		padding: 0px;
+		border: 0px;
+		margin: 0px;
+	}
+#wrapper {
+		width: 80%;
+		margin: 0 auto;
+	}
+header {
+		
+	}
+nav {
+		
+	}
+#content {
+
+	}
+footer {
+
+	}
+#exList {
+		list-style-type: none;
+		text-align: center;
+	}
+
+	
