@@ -1,0 +1,94 @@
+body {
+	margin: 0px;
+	padding: 0px;
+  }
+  body *{
+	margin: 0px;
+	padding: 0px;
+  }
+  header {
+	  width:270px;
+	  margin: auto;
+	}
+  #game {
+	border: 1px solid black;
+	border-radius: 25px;
+	
+	-moz-perspective: 1000;
+	-moz-perspective-origin: 50% 250px; 
+	-ms-perspective: 1000;
+	-ms-perspective-origin: 50% 250px; 
+	-webkit-perspective: 1000;
+	-webkit-perspective-origin: 50% 250px;
+	-o-perspective: 1000;
+	-o-perspective-origin: 50% 250px; 
+	perspective: 1000;
+	perspective-origin: 50% 250px; 
+	
+	margin: auto;
+	padding: 10px;
+	width: 480px;
+	height: 480px;
+	background-color: black;
+  }
+
+  .cell .front {
+	-moz-transform: rotateY(180deg) translateY(-60px) translateZ(1px);
+	-ms-transform: rotateY(180deg) translateY(-60px) translateZ(1px);
+	-webkit-transform: rotateY(180deg) translateY(-60px) translateZ(1px);
+	-o-transform: rotateY(180deg) translateY(-60px) translateZ(1px);
+	transform: rotateY(180deg) translateY(-60px) translateZ(1px);
+  }
+  .cell .back {
+    -moz-transform: translateY(-60px) translateZ(1px); 
+	-ms-transform: translateY(-60px) translateZ(1px);
+	-webkit-transform: translateY(-60px) translateZ(1px);
+	-o-transform: translateY(-60px) translateZ(1px);
+	transform: translateY(-60px) translateZ(1px);
+  }
+  
+  table
+  {
+	padding: 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+  }
+
+  td
+  {
+    -moz-transition: -moz-transform .3s linear;
+	-moz-transform-style: preserve-3d; 
+	-ms-transition: -ms-transform .3s linear;
+	-ms-transform-style: preserve-3d;
+	-webkit-transition: -webkit-transform .3s linear;
+	-webkit-transform-style: preserve-3d;
+	-o-transition: -o-transform .3s linear;
+	-o-transform-style: preserve-3d; /* NOT SUPPORTED YET? */
+	
+	
+	height: 120px;
+	width: 120px;
+
+	border: 0px;
+	padding: 0px;
+
+	empty-cells: show;
+	
+  }
+
+  td div
+  {
+	display: table-cell;
+	border: 1px solid black;
+	border-radius: 25px;
+	position: absolute;
+	margin: 5px;
+	height: 110px;
+	width: 110px;
+	overflow: hidden;
+	background-color: red;
+  }
+  footer {
+	width: 400px;
+	margin: auto;
+}
