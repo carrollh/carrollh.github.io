@@ -1,0 +1,55 @@
+#content { background-image: url('../img/ex02.png'); }
+#field01 {
+	top: 38px;
+	left: 3%;
+	width: 25px;
+}
+#field02 {
+	top: 61px;
+	left: 36.5%;
+	width: 32px;			
+}
+#field03 {
+	top: 130px;
+	left: 34.3%;
+	width: 32px;
+
+}
+#field04 {
+	top: 249px;
+	left: 6.9%;
+	width: 32px;
+
+}
+#field05 {
+	top: 326px;
+	left: -11.6%;
+	width: 32px;
+
+}
+#field06 {
+	top: 388px;
+	left: -.5%;
+	width: 32px;
+
+}
+#field07 {
+	top: 465px;
+	left: 22.7%;
+	width: 32px;
+}
+#field08 {
+	top: 501px;
+	left: 10.6%;
+	width: 32px;
+}
+#field09 {
+	top: 595px;
+	left: 47.3%;
+	width: 32px;
+}
+#field10 {
+	top: 708px;
+	left: 25.65%;
+	width: 32px;
+}

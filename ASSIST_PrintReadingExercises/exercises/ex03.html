@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Print Reading Exercise 03</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../css/exercises.css">
+	<link rel="stylesheet" href="../css/ex03.css">
+</head>
+<body>
+	<section id="wrapper">
+		<header>
+			<h3> Enter the correct values into the text boxes, then click the submit button below. </h3>
+		</header>
+		<article id="content">
+			<form name="inputForm" id="inputForm" onSubmit="return submitData(this);">
+				<input name="field01" id="field01" type="text" pattern="\d{0,1}\.{0,1}\d{0,3}" required>
+				<input name="field02" id="field02" type="text" pattern="\d{0,1}\.{0,1}\d{0,3}" required>
+				<input name="field03" id="field03" type="text" pattern="\d{0,1}\.{0,1}\d{0,3}" required>
+				<input name="field04" id="field04" type="text" pattern="\d{0,1}\.{0,1}\d{0,3}" required>
+			</form>
+		</article>
+		<section id="submitArea">
+			<input name="submit" id="submit" type="submit" value="Submit" form="inputForm">
+		</section>
+		<footer>
+		</footer>
+	</section>
+	<script type="text/javascript" src="../js/ex03.js"></script>
+</body>
+</html>

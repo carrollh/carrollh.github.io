@@ -1,0 +1,10 @@
+#content { 
+	background-image: url('../img/ex03.png'); 
+	background-repeat: no-repeat;
+	height: 500px;
+}
+input { width: 32px; }
+#field01 { top: 140px; left: 45.5%; }
+#field02 { top: 213px; left: 23.7%; }
+#field03 { top: 243px; left: 53.2%; }
+#field04 { top: 326px; left: 31.4%; }
